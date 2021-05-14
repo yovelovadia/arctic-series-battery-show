@@ -1,0 +1,27 @@
+{
+  "name": "arctis-battery-percentage",
+  "version": "1.0.4",
+  "preferGlobal": true,
+  "description": "Shows SteelSeries Arctis wireless device's battery percentages as a notification.",
+  "main": "percentage.js",
+  "bin": {
+    "arctis-battery": "./percentage.js"
+  },
+  "keywords": [
+    "steelseries",
+    "hid",
+    "percentage",
+    "arctis",
+    "battery"
+  ],
+  "author": "atagulalan",
+  "license": "MIT",
+  "dependencies": {
+    "arctis-usb-finder": "0.0.5",
+    "node-powershell": "4.0.0"
+  },
+  "devDependencies": {
+    "canvas": "^2.6.1",
+    "node-hid": "^1.2.0"
+  }
+}
